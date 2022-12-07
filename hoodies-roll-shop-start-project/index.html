@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Hoodie Roll Store</title>
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container text-center">
+			<img src="img/logo/hoodie-logo.png" width="92" alt="Суши и пицца">
+			<div class="display-4">Hoodie Roll</div>
+			<p class="lead">Qualitatively and profitable</p>
+		</div>
+	</header>
+
+	<div class="container mb-5">
+		<div class="row">
+			<!--Products-->
+			<div class="col-md-8">
+				<div class="row">
+
+					<!-- Hoodie-->
+					<div class="col-md-6">
+						<div class="card mb-4" data-id="01">
+							<img class="product-img" src="img/roll/hoodie-black.jpg" alt="">
+							<div class="card-body text-center">
+								<h4 class="item-title">Black Hoodies</h4>
+								<p><small data-items-in-box class="text-muted">1 piece.</small></p>
+
+								<div class="details-wrapper">
+									<!--Counter-->
+									<div class="items counter-wrapper">
+										<div class="items__control" data-action="minus">-</div>
+										<div class="items__current" data-counter>1</div>
+										<div class="items__control" data-action="plus">+</div>
+									</div>
+									<!--//Counter-->
+									<div class="price">
+										<!-- <div class="price__weight">180г.</div> -->
+										<div class="price__currency">300 $</div>
+									</div>
+								</div>
+
+								<button data-cart type="button" class="btn btn-block btn-outline-warning">+ to cart</button>
+
+							</div>
+						</div>
+					</div>
+					<!-- // Hoodie -->
+
+					<!-- Hoodie -->
+					<div class="col-md-6">
+						<div class="card mb-4" data-id="02">
+							<img class="product-img" src="img/roll/hoodie-grey.jpg" alt="">
+							<div class="card-body text-center">
+								<h4 class="item-title">Grey Hoodie</h4>
+								<p><small data-items-in-box class="text-muted">1 piece</small></p>
+
+								<div class="details-wrapper">
+									<div class="items counter-wrapper">
+										<div class="items__control" data-action="minus">-</div>
+										<div class="items__current" data-counter>1</div>
+										<div class="items__control" data-action="plus">+</div>
+									</div>
+
+									<div class="price">
+										<!-- <div class="price__weight">205г.</div> -->
+										<div class="price__currency">250 $</div>
+									</div>
+								</div>
+
+								<button data-cart type="button" class="btn btn-block btn-outline-warning">+ to cart</button>
+
+							</div>
+						</div>
+					</div>
+					<!-- // Hoodie -->
+
+					<!-- Hoodie -->
+					<div class="col-md-6">
+						<div class="card mb-4" data-id="03">
+							<img class="product-img" src="img/roll/hoodie-skull.jpg" alt="">
+							<div class="card-body text-center">
+								<h4 class="item-title">Skull Hoodie</h4>
+								<p><small data-items-in-box class="text-muted">1 piece</small></p>
+
+								<div class="details-wrapper">
+									<div class="items counter-wrapper">
+										<div class="items__control" data-action="minus">-</div>
+										<div class="items__current" data-counter>1</div>
+										<div class="items__control" data-action="plus">+</div>
+									</div>
+
+									<div class="price">
+										<!-- <div class="price__weight">182г.</div> -->
+										<div class="price__currency">230 $</div>
+									</div>
+
+								</div>
+
+								<button data-cart type="button" class="btn btn-block btn-outline-warning">+ to cart</button>
+
+							</div>
+						</div>
+					</div>
+					<!-- // Hoodie -->
+
+					<!-- Hoodie -->
+					<div class="col-md-6">
+						<div class="card mb-4" data-id="04">
+							<img class="product-img" src="img/roll/hoodie-yellowred.jpg" alt="">
+							<div class="card-body text-center">
+								<h4 class="item-title">Yellow-Red Hoodie</h4>
+								<p><small data-items-in-box class="text-muted">1 piece</small></p>
+
+								<div class="details-wrapper">
+									<div class="items counter-wrapper">
+										<div class="items__control" data-action="minus">-</div>
+										<div class="items__current" data-counter>1</div>
+										<div class="items__control" data-action="plus">+</div>
+									</div>
+
+									<div class="price">
+										<!-- <div class="price__weight">230г.</div> -->
+										<div class="price__currency">320 $</div>
+									</div>
+
+								</div>
+
+								<button data-cart type="button" class="btn btn-block btn-outline-warning">
+									+ to cart
+								</button>
+
+							</div>
+						</div>
+					</div>
+					<!-- // Hoodie -->
+
+				</div>
+			</div>
+			<!--Basket-->
+			<div class="col-md-4">
+
+				<!-- Basket -->
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">Your order</h4>
+						<div data-cart-empty class="alert alert-secondary" role="alert">
+							Card is empty
+						</div>
+						<!-- cart-wrapper -->
+						<div class="cart-wrapper">
+
+						</div>
+						<!-- // cart-wrapper -->
+
+						<!-- Order cost -->
+						<div class="cart-total">
+							<p data-cart-delivery class="none">
+								<span class="h5">Delivery:</span>
+								<span class="delivery-cost">250 $</span><br>
+								<span class="small">Free delivery when ordering from 600 $</span>
+							</p>
+							<p><span class="h5">Total:</span>
+								<span class="total-price">0</span>
+								<span class="rouble">$</span></p>
+						</div>
+						<!-- // Order cost -->
+
+					</div>
+
+					<!-- Ordered
+					<div id="order-form" class="card-body border-top">
+						<h5 class="card-title">Ordered</h4>
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Your Phone Number">
+							</div>
+							<button type="submit" class="btn btn-primary">Order</button>
+						</form>
+					</div>
+					// Ordered -->
+
+				</div>
+				<!-- // Basket -->
+
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Connect scripts -->
+<script src="./js/counter.js"></script>
+<script src="./js/card.js"></script>
+</body>
+
+</html>
